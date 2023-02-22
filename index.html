@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>BFE 2023</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+      </div>
+
+    <div id="level">
+        <div id="level-title" class="level-title">
+            Glucose
+        </div>
+        <canvas width="750" height="750" id="cvs" style="object-fit:contain;"></canvas>
+    </div>
+    <div id="level-number">
+        Level 1
+    </div>
+    <div id="info-box">
+        Glucose is a simple sugar consisting of 6 molecules of carbon, 12 molecules of hydrogen and 6 molecules of oxygen. It is an important source of energy for living organisms and is a building block for many carbohydrates. 
+    </div>
+
+    <div id="menu">
+        <div id="title">
+            BFE 2023
+        </div>
+        <div id="subtitle">
+            created by Gus Vincent
+        </div>
+        <div id="title-buttons">
+            <div class="title-button" id="start">
+                Start
+            </div>
+            <div class="title-button" id="instructions">
+                Instructions: Drag each individual atom or molecule to it's respective spot on the larger molecule. 
+                Blue circles mean that there is multiple molecules/atoms that can be placed in the connected blue spaces.
+                Click and drag to move the molecule. Right click to add another atom to the molecule. E.G: H1 -> H2.
+                You can group atoms/smaller molecules together by doing the following: CTRL + LMB on the atom/molecule you want to group.
+                Then, CTRL + LMB on the atom/molecule you want to group it with. You can click on more than 2 atoms and group them together.
+                To finish grouping atoms, and create one bigger molecule, SHIFT + LMB on one of the grouped atoms. You will now be able to
+                drag them all as one molecule. The lines represent single bonds and thicker lines represent double bonds.
+            </div>
+        </div>
+        
+        <div id="win-screen">
+            Congratulations, no levels left!
+        </div>
+    </div>
+
+
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="./js/canvas.js"></script>
+    <script src="./js/molecules.js"></script>
+    <script src="./js/levels.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
