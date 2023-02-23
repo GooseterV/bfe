@@ -16,6 +16,18 @@ const levels = [
 		num: 3,
 		description: "Adenine is a nitrogenous base that consists of two carbon rings with Nitrogen substituted in two p LL aces in each, as well as a ammonia group (nh3).  It is one of the 4 nucleobases in the structure of DNA, and is complimentary to Thymine in DNA and to Uracil in RNA. Adenine also is important in protein synthesis. ",
 		handler: "./js/levels/3.js"
+	},
+	{
+		name: "Fructose",
+		num:4,
+		description: "Fructose is a simple sugar consisting of carbon, hydrogen, and oxygen in a respective 1:2:1 ratio. Fructose is a monosaccharide and building block for many polysaccharides and bigger molecules. It is also a component of sucrose, which is the most common sugar in the human diet.",
+		handler: "./js/levels/4.js"
+	},
+	{
+		name: "Amino Acid",
+		num:5,
+		description: "Amino Acids are the building blocks of proteins. They are organic compounds that contain an amino group, a carboxyl group, a hydrogen atom, and a side chain. There are 20 different amino acids, and they are all different because of the different side chains.",
+		handler: "./js/levels/5.js"
 	}
 ];
 
