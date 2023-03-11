@@ -25,6 +25,7 @@ function main() {
     try {
         window.data = JSON.parse(localStorage.data);
     } catch (e) {
+        window.data = null;
         console.log(e)
         console.log("No data found.");
     }
